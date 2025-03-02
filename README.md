@@ -10,8 +10,8 @@ config
 
 module usage
 
-fetch(`http://$(mm_ip):${MM_port}//modules/getip")
-
+fetch(`/modules/getip")
+(from same MagicMirror server this page/module came from)
 returns a text string with the ip address 
 "192.168.2.106" for example
 
